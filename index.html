@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <title>SVG mask + video</title>
   <link href='//fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   
@@ -15,24 +18,19 @@
 
 <body>
 
-  <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice">
+  <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" >
   <defs>
-    <linearGradient id="fadeGrad" y2="1" x2="0">
-      <stop offset="0.5" stop-color="#0B24FB" stop-opacity="1"/>
-      <stop offset="1" stop-color="#0B24FB" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="fade" x="0" y="0" width="1920" height="1080" fill="url(#fadeGrad)">
+    <mask id="mask" x="0" y="0" width="1920" height="1080" >
       <rect x="0" y="0" width="1920" height="1080"/>
-      <text x="960" y="1em">KATIE</text>
-      <text x="960" y="90%">ALLYN</text>
+      <text x="960" y="1em">Katie</text>
+      <text x="960" y="90%">Allyn</text>
     </mask>
   </defs>
-  <rect x="0" y="0" width="1920" height="1080"mask="url(#fade)" fill="url(#fadeGrad)"/>
+  <rect x="0" y="0" width="1920" height="1080"/>
 </svg>
-
-
 <video id="video" autoplay="autoplay" muted="muted" preload="auto" loop="loop">
     <source src="Universe_in_a_jar.mp4" type="video/mp4">
+    <!-- <source src="http://mazwai.com/system/posts/videos/000/000/123/webm/victor_ciurus--5d_mark_iii_magic_lantern_14_bits_raw_video.webm?1412890624" type="video/webm"> -->
 </video>
   
   

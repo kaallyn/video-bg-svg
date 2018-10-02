@@ -5,6 +5,7 @@ html{
 }
 body {
     font-family: 'Roboto', sans-serif;
+    font-family: 'raleway';
     font-size: 35em;
     letter-spacing:-0.03em;
     height: 100%;
@@ -18,14 +19,13 @@ svg text {
     text-anchor: middle;
 }
 svg mask rect {
-    fill: rgba(255, 255, 255, 0.9);
-  /*fill: linear-gradient(178deg, rgba(128,208,199,1) 0%, rgba(19,84,122,.7) 100%);*/
+    fill: rgba(255, 255, 255, 1);
+    /*fill: #2BFEBA;*/
 }
 svg > rect {
-     /*fill: #2BFEBA; */
+    fill: #0B24FB;
     -webkit-mask: url(#mask);
-    mask: url(#fade);
-  mix-blend-mode: multiply;
+    mask: url(#mask);
 }
 video{
   position: absolute;
