@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SVG mask + video</title>
+  <link href='//fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="fadeGrad" y2="1" x2="0">
+      <stop offset="0.5" stop-color="#0B24FB" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0B24FB" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="fade" x="0" y="0" width="1920" height="1080" fill="url(#fadeGrad)">
+      <rect x="0" y="0" width="1920" height="1080"/>
+      <text x="960" y="1em">KATIE</text>
+      <text x="960" y="90%">ALLYN</text>
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080"mask="url(#fade)" fill="url(#fadeGrad)"/>
+</svg>
+
+
+<video id="video" autoplay="autoplay" muted="muted" preload="auto" loop="loop">
+    <source src="Universe_in_a_jar.mp4" type="video/mp4">
+</video>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
