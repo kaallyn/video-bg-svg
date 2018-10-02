@@ -6,20 +6,23 @@ html{
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'raleway';
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    text-transform: uppercase;
     font-size: 35em;
     letter-spacing:-0.03em;
     height: 100%;
 }
 svg {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     position:absolute;
 }
 svg text {
     text-anchor: middle;
 }
 svg mask rect {
-    fill: rgba(255, 255, 255, 1);
+    fill: rgba(255, 255, 255, .95);
     /*fill: #2BFEBA;*/
 }
 svg > rect {
@@ -31,8 +34,8 @@ video{
   position: absolute;
   top: 0%;
   left: 0%;
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  /*min-height: 100%;*/
   width: auto;
   height: auto;
   z-index: -1;
@@ -40,9 +43,15 @@ video{
   filter: contrast(2);
 }
 
-@media only screen and (max-width: 768px) {
+header {
+  height: 90%;
+  position: relative;
+  /*background: red;*/
+}
+
+/*@media only screen and (max-width: 768px) {
   html{
     font-size:0.5em;
     font-weight:400;
-  }
+  }*/
 }
