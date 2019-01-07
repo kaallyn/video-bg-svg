@@ -97,7 +97,7 @@ video{
   height: auto;
   z-index: -1;
   overflow: hidden;
-  filter: contrast(2);
+  filter: contrast(4);
 }
 
 header {
