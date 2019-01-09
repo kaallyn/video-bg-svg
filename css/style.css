@@ -10,14 +10,15 @@ html{
   color:red;
 }
 body {
+  /*font-family: 'Bungee Inline', cursive;*/
+/*font-family: 'Bungee', cursive;*/
   font-family: 'Roboto', sans-serif;
   font-family: 'raleway';
   font-family: 'Josefin Sans';
-font-family: 'PT Mono', monospace;
+font-family: 'PT Mono', monospace; /*I like this K and lettering. Just needs kerning*/
 font-family: 'VT323', monospace;
 font-family: 'Squada One', cursive;
-font-family: 'Chakra Petch', sans-serif;
-font-family: 'Exo', sans-serif;
+font-family: 'Exo', sans-serif; /*I like this K, not the Ls*/
 font-family: 'Nunito', sans-serif;
 font-family: 'Concert One', cursive;
 font-family: 'IBM Plex Sans', sans-serif;
@@ -25,7 +26,7 @@ font-family: 'Noto Sans', sans-serif;
 font-family: 'Krub', sans-serif;
 font-family: 'Muli', sans-serif;
 font-family: 'Fira Sans', sans-serif;
-font-family: 'Chakra Petch', sans-serif;
+font-family: 'Chakra Petch', sans-serif; /*I like this K, letters good in upper and lowercases*/
 font-family: 'Quicksand', sans-serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
@@ -38,12 +39,12 @@ font-family: 'PT Mono', monospace;
 font-family: 'Fira Mono', monospace;
 font-family: 'Share Tech', monospace;
 /*font-family: 'Share', cursive;*/
-/*font-family: 'Space Mono', monospace;*/
+/*font-family: 'Space Mono', monospace; */
+  /*like space mono lower and uppercase*/
 /*font-family: 'Amaranth', sans-serif;
 font-family: 'Changa', sans-serif;
 font-family: 'Anonymous Pro', monospace;*/
-/*font-family: 'Bungee Inline', cursive;*/
-/*font-family: 'Bungee', cursive;*/
+
 
   /*font-kerning: none;*/
   /*font-size: 35em;*/
