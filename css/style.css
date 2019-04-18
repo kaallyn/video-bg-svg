@@ -94,6 +94,7 @@ svg > rect {
   /*fill: #FC4F21;*/
   -webkit-mask: url(#mask);
   mask: url(#mask);
+  opacity: .95;
     
 }
 video{
@@ -106,7 +107,7 @@ video{
   height: auto;
   z-index: -1;
   overflow: hidden;
-  filter: contrast(4);
+  filter: contrast(2);
 }
 
 header {
