@@ -12,7 +12,7 @@
 
 html{
   height: 100%;
-  overflow:hidden;
+  /*overflow:hidden;*/
   font-weight:100;
   /*font-size: 18px;*/
   color:red;
