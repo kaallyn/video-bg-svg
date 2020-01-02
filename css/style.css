@@ -109,7 +109,7 @@ video{
   height: auto;
   z-index: -1;
   overflow: hidden;
-  filter: contrast(1.2);
+  /*filter: contrast(1.2);*/
   position:absolute;
           display: block;
 }
