@@ -97,7 +97,7 @@ svg > rect {
   fill: #0B24FB;
   /*fill: #0920e1;*/
   fill: #2BFEBA;
-  /*fill: #FC4F21;*/
+  fill: #2EFFFE;
   -webkit-mask: url(#mask);
   mask: url(#mask);
   /*opacity: .95;*/
@@ -114,6 +114,7 @@ video{
   z-index: -1;
   overflow: hidden;
   filter: contrast(1.2);
+  filter: brightness(2.5);
   position:absolute;
   display: block;
 }
@@ -124,7 +125,7 @@ header {
   /*background: lightgreen;*/
   /*border:10px solid red;*/
   overflow: hidden;
-  font-family: 'Roboto', sans-serif;
+  
   font-family: 'raleway';
   font-family: 'Josefin Sans';
   font-family: 'PT Mono', monospace; /*I like this K and lettering. Just needs kerning*/
@@ -140,6 +141,7 @@ header {
   font-family: 'PT Mono', monospace;
   font-family: 'Fira Mono', monospace;
   font-family: 'Share Tech', monospace;
+  font-family: 'Roboto', sans-serif;
   /*font-family: 'Anonymous Pro', monospace;*/
   border-bottom: 1px solid blue;
 }
@@ -364,6 +366,7 @@ h3 {
   text-transform: uppercase;
   text-shadow: 1px -2px 0px #FC4645, 3px 2px 0px blue;
   color: #2BFEBA;
+  color: #2EFFFE;
 }
 
 p {
