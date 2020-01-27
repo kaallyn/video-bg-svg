@@ -25,29 +25,17 @@ body {
   font-family: 'Josefin Sans';
 font-family: 'PT Mono', monospace; /*I like this K and lettering. Just needs kerning*/
 font-family: 'VT323', monospace;
-font-family: 'Squada One', cursive;
-font-family: 'Exo', sans-serif; /*I like this K, not the Ls*/
-font-family: 'Nunito', sans-serif;
-font-family: 'Concert One', cursive;
 font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Noto Sans', sans-serif;
-font-family: 'Krub', sans-serif;
 font-family: 'Muli', sans-serif;
 font-family: 'Fira Sans', sans-serif;
 font-family: 'Chakra Petch', sans-serif; /*I like this K, letters good in upper and lowercases*/
-font-family: 'Quicksand', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Asap', sans-serif;
-font-family: 'Comfortaa', cursive;
 font-family: 'Cairo', sans-serif;
 font-family: 'Prompt', sans-serif;
 font-family: 'Cantarell', sans-serif;
 font-family: 'PT Mono', monospace;
 font-family: 'Fira Mono', monospace;
 font-family: 'Share Tech', monospace;
-/*font-family: 'Share', cursive;*/
-/*font-family: 'Space Mono', monospace; */
   /*like space mono lower and uppercase*/
 /*font-family: 'Amaranth', sans-serif;
 font-family: 'Changa', sans-serif;
@@ -83,6 +71,21 @@ svg {
 /*    margin-bottom: 2rem;
   margin-top: 2rem;*/
 }
+
+.first-name {
+  /*font-size: .53em;*/
+}
+
+.last-name {
+  /*font-size: .3em;*/
+}
+
+.byline {
+  font-size: .1325em;
+  font-size: .1035em;
+  font-family: 'PT Mono', monospace;
+}
+
 svg text {
   text-anchor: middle;
 }
@@ -105,14 +108,14 @@ video{
   top: 0%;
   left: 0%;
   max-width: 100%;
-  min-height: 100%;
+  /*min-height: 100%;*/
   width: auto;
   height: auto;
   z-index: -1;
   overflow: hidden;
   filter: contrast(1.2);
   position:absolute;
-          display: block;
+  display: block;
 }
 
 header {
@@ -121,52 +124,36 @@ header {
   /*background: lightgreen;*/
   /*border:10px solid red;*/
   overflow: hidden;
-    /*font-family: 'Bungee Inline', cursive;*/
-/*font-family: 'Bungee', cursive;*/
   font-family: 'Roboto', sans-serif;
   font-family: 'raleway';
   font-family: 'Josefin Sans';
-font-family: 'PT Mono', monospace; /*I like this K and lettering. Just needs kerning*/
-font-family: 'VT323', monospace;
-font-family: 'Squada One', cursive;
-font-family: 'Exo', sans-serif; /*I like this K, not the Ls*/
-font-family: 'Nunito', sans-serif;
-font-family: 'Concert One', cursive;
-font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Krub', sans-serif;
-font-family: 'Muli', sans-serif;
-font-family: 'Fira Sans', sans-serif;
-font-family: 'Chakra Petch', sans-serif; /*I like this K, letters good in upper and lowercases*/
-font-family: 'Quicksand', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Asap', sans-serif;
-font-family: 'Comfortaa', cursive;
-font-family: 'Cairo', sans-serif;
-font-family: 'Prompt', sans-serif;
-font-family: 'Cantarell', sans-serif;
-font-family: 'PT Mono', monospace;
-font-family: 'Fira Mono', monospace;
-font-family: 'Share Tech', monospace;
-/*font-family: 'Share', cursive;*/
-/*font-family: 'Space Mono', monospace; */
-  /*like space mono lower and uppercase*/
-/*font-family: 'Amaranth', sans-serif;
-font-family: 'Changa', sans-serif;
-font-family: 'Anonymous Pro', monospace;*/
+  font-family: 'PT Mono', monospace; /*I like this K and lettering. Just needs kerning*/
+  font-family: 'VT323', monospace;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chakra Petch', sans-serif; /*I like this K, letters good in upper and lowercases*/
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Cantarell', sans-serif;
+  font-family: 'PT Mono', monospace;
+  font-family: 'Fira Mono', monospace;
+  font-family: 'Share Tech', monospace;
+  /*font-family: 'Anonymous Pro', monospace;*/
+  border-bottom: 1px solid blue;
 }
 
 main {
-  font-size: 21px;
-  color: white;
+  font-size: 15px;
+/*  color: white;
   width: 90%;
-  letter-spacing: 1px;
-  /*font-family: 'Roboto', sans-serif;*/
-  margin: 0 auto;
+  letter-spacing: 1px;*/
+  font-family: 'PT Mono', monospace;
+/*  margin: 0 auto;
   color: #0B24FB;
   color: #2BFEBA;
-  text-align: center;
+  text-align: center;*/
 
 
 }
@@ -362,17 +349,18 @@ li {
   padding: 0px 15px 0px 15px;
 }
   
-h2 {
+/*h2 {
    font-family: 'Economica', sans-serif;
    font-weight: normal;
    font-size: 36px;
    margin: -50px 0 50px 0;
    margin: 0 0 50px 0;
-   }
+   }*/
    
 h3 {
   font-family: 'Economica', sans-serif;
-  font-size: 45px;
+  font-size: 50px;
+  text-align: center;
   text-transform: uppercase;
   text-shadow: 1px -2px 0px #FC4645, 3px 2px 0px blue;
   color: #2BFEBA;
